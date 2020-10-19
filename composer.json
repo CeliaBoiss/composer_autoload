@@ -1,0 +1,14 @@
+{
+    "name": "celia/composer-autoload-discovery",
+    "description": "Projet quête composer",
+    "authors": [
+        {
+            "name": "CeliaBoiss",
+            "email": "boisseau.celia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\Wcs\\": "src/wcs/"}
+    },
+    "require": {}    
+}
