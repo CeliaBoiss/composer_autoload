@@ -5,4 +5,7 @@ use App\Wcs\Hello;
 
 $newHello = new Hello();
 
-echo $newHello->talk();
+$anotherHello = new HelloWorld\SayHello();
+
+echo $newHello->talk()."<br/>";
+echo $anotherHello->world();
